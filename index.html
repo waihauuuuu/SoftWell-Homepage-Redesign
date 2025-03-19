@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softwell - IT Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- MENU SIDE BAR -->
+        <nav class="sidebar">
+            <div class="btnBack">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                    <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+                </svg>
+            </div>
+            <ul>
+                <li class="s-home">
+                    <a>Home</a>
+                </li>
+                <li class="s-about-us"><a>About Us</a></li>
+                <li class="s-services">
+                    <a>Services</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                        <path d="M480-360 280-560h400L480-360Z"/>
+                    </svg>
+                </li>
+                <li class="s-projects"><a>Projects</a></li>
+                <li class="s-career"><a>Career</a></li>
+            </ul>
+        </nav>  
+        
+        <!-- SERVICES SIDE BAR -->
+        <nav class="servicesbar">
+            <div class="services-btnBack">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                    <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+                </svg>
+            </div>
+            <ul>
+                <li>Customised Web Solution Development</li>
+                <li>Mobile Apps Development</li>
+                <li>Website Development</li>
+                <li>eCommerce Development</li>
+                <li>IOT(Internet of things) Development</li>
+            </ul>
+        </nav>  
+
+        <!-- NAVIGATION BAR -->        
+        <nav class="navbar">
+            <div class="logo-nav">
+                <div class="btnMore">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="Resources\Softwell.png" alt=Softwell>
+                </div>        
+                <ul class="nav-links">
+                    <li class="home">
+                        <a>Home</a>
+                        <hr class="selected">
+                    </li>
+                    <li class="about-us"><a>About Us</a></li>
+                    <li class="services-group">
+                        <a>Services</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                            <path d="M480-360 280-560h400L480-360Z"/>
+                        </svg>
+                    </li>
+                    <li class="projects"><a>Projects</a></li>
+                    <li class="career"><a>Career</a></li>
+                </ul>
+            </div>
+            <ul class="contact-links">
+                <div class="whatsapp-links">
+                    <div class="whatsapp-icon">
+                        <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px">
+                            <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"/>
+                        </svg>
+                    </div>
+                    <li><a>+60 16 969 6401</a></li>
+                </div>
+                <li><a class="btnContact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <div class="hero-title">
+                    <h1 class="hero-title-md">IT Services Designed For</h1>
+                    <h1 class="hero-title-lg">Your Business</h1>
+                </div>
+                <p class="hero-description">We build custom software that allows businesses to meet their needs and constraints.</p>
+                <div class="hero-buttons">
+                    <a class="btnStart">Let's Start</a>
+                    <a class="btnLearn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img class="illustration" src="Resources\Illustration.png" alt="Illustration">
+                <div class="abstract"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Team Section-->
+    <section class="about">
+        <div class="container">
+            <div class="image-group">
+                <img class="img1" src="Resources\AboutImage\image1.jpg" alt="Team Meeting">
+                <img class="img2" src="Resources\AboutImage\image2.jpg" alt="Working">
+                <img class="img3" src="Resources\AboutImage\image3.jpg" alt="Business Planing">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">Let Our Dedicated Team Take the Responsibility</h2>
+                <hr class="about-line"> <!--horizontal rule-->
+                <div class="card-container">
+                    <div class="blank-card"></div>
+                    <div class="about-card">
+                        <div class="about-card-upper">
+                            <h3 class="about-card-title">What We Do</h3>
+                            <div class="btnNext">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="about-card-lower">
+                            <ul class="about-points">
+                                <li>Cost-effectiveness</li>
+                                <li>Increase the rate of productivity</li>
+                                <li>Highly scalable solutions with business growth</li>
+                                <li>Vision and mission accomplishment with tech solutions</li>
+                            </ul>
+                            <div class="dots-container">
+                                <span class="dot1"></span>
+                                <span class="dot2"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="about-btnStart">Let's Start</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Step Section-->
+    <section class="step">
+        <div class="container">
+            <h1 class="step-title">How Softwell Develops Top-Notch Solutions</h1>
+            <div class="step-card">
+                <div class="step-01-card">
+                    <div class="front">
+                        <h1>01</h1>
+                        <h2>Analyse Your Current Business Problems/Ideas</h2>
+                    </div>
+                    <div class="back" >
+                        <p>We will collect the feedback from the stakeholders, analyse it and summarise the main problems.</p>
+                    </div>
+                </div>
+                <div class="step-02-card">
+                    <div class="front">
+                        <h1>02</h1>
+                        <h2>Idea Generation With Solutions Proposal</h2>
+                    </div>
+                    <div class="back" >
+                        <p>We will squeeze the brain among our team members and shape the solutions with your budget, timeline, and resources.</p>
+                    </div>
+                </div>
+                <div class="step-03-card">
+                    <div class="front">
+                        <h1>03</h1>
+                        <h2>System Architecture Design With Future-Proof</h2>
+                    </div>
+                    <div class="back" >
+                        <p>Scalability is very important in a good system, therefore, we plan the system architecture that is highly scalable on adopting any future enhancements and features.</p>
+                    </div>
+                </div>
+                <div class="step-04-card">
+                    <div class="front">
+                        <h1>04</h1>
+                        <h2>Coding Time</h2>
+                    </div>
+                    <div class="back" >
+                        <p>Once all is good, we will kick start the development with Agile practices based on the timeline, deliverables, and resources planned.</p>
+                    </div>
+                </div>
+                <div class="step-05-card">
+                    <div class="front">
+                        <h1>05</h1>
+                        <h2>Features Review</h2>
+                    </div>
+                    <div class="back" >
+                        <p>Our team will update you regularly based on the timeline planned, and you can have an instant review of the features we developed daily or weekly.</p>
+                    </div>
+                </div>
+                <div class="step-06-card">
+                    <div class="front">
+                        <h1>06</h1>
+                        <h2>Final Deployment</h2>
+                    </div>
+                    <div class="back" >
+                        <p>After all the hard work, is time to let the solutions run. Don’t worry, our team will monitor closely the feedback from the actual users and make the relevant adjustment based on the feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--CTA Section-->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-text">
+                    <h2 class="cta-title">Got a Project Idea?</h2>
+                    <p class="cta-body">Leave your details and we'll be in touch within 24 hours.</p>
+                </div>
+                <a class="btnWhatsapp">
+                    <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px">
+                        <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"/>
+                    </svg>
+                    <h2 class="cta-btn-text">Whatsapp Us</h2>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Client Section-->
+    <section class="client">
+        <div class="container">
+            <h1 class="client-title">Our Clients</h1>
+            <div class="client-image">
+                <img class="company1" src="Resources\Company\CompanyLogo1.png">
+                <img class="company2" src="Resources\Company\CompanyLogo2.png">
+                <img class="company3" src="Resources\Company\CompanyLogo3.png">
+                <img class="company4" src="Resources\Company\CompanyLogo4.png">
+                <img class="company5" src="Resources\Company\CompanyLogo5.png">
+                <img class="company6" src="Resources\Company\CompanyLogo6.png">
+                <img class="company7" src="Resources\Company\CompanyLogo7.png">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-upper">
+                <div class="footer-logo">
+                    <img src="Resources\Softwell.png" alt=Softwell>
+                </div>
+                <p class="copyright">© 2024 SOFTWELL SDN. BHD. 202101041961 (1442261-W)</p>
+            </div>
+            <hr class="divider">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <h3 class="footer-subtitle">Company</h3>
+                    <ul>
+                        <li><a>About Us</a></li>
+                        <li><a>Projects</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a>Career</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3 class="footer-subtitle">Services</h3>
+                    <ul>
+                        <li>Customised Web Solution Development</li>
+                        <li>Mobile Apps Development</li>
+                        <li>Website Development</li>
+                        <li>eCommerce Development</li>
+                        <li>IOT (Internet Of Things) Development</li>
+                    </ul>
+                </div>
+                <div class="footer-media">
+                    <h3 class="footer-subtitle">Social Media</h3>
+                    <ul>
+                        <li class="facebook">
+                            <?xml version="1.0" encoding="utf-8"?><svg fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"/>
+                            </svg>
+                            Facebook
+                        </li>
+                        <li class="instagram">
+                            <?xml version="1.0" encoding="utf-8"?><svg fill="#000000" viewBox="0 0 24 24" data-name="Instagram w/circle" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z"/>
+                            </svg>
+                            Instagram
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="JavaScript\sideBar.js"></script>
+    <script src="JavaScript\heroAnimation.js"></script>
+    <script src="JavaScript\cardSwitching.js"></script>
+    <script src="JavaScript\cardFlipping.js"></script>
+</body>
+</html>
