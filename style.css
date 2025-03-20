@@ -187,7 +187,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 70px;
     position: relative;
     background-image: url(/Resources/BackgroundCube.png);
     background-position-x: -150px;
@@ -226,6 +226,7 @@ body {
 }
 
 .hero-text {
+    margin-top: -30px;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
@@ -320,6 +321,7 @@ body {
     position: relative;
     width: 288px;
     border-radius: 0px 100px 0px 0px;
+    z-index: 1;
     animation: fadeInimg1 linear;
     animation-timeline: view();
     animation-range: entry 0 cover 70%;
@@ -330,7 +332,7 @@ body {
     position: relative;
     width: 216px;
     border-radius: 100px 0px 100px 0px;
-    z-index: 1;
+    z-index: 2;
     animation: fadeInimg2 linear;
     animation-timeline: view();
     animation-range: entry 0 cover 48%;
@@ -341,7 +343,7 @@ body {
     position: relative;
     width: 331px;
     border-radius: 0px 0px 0px 100px;
-    z-index: 2;
+    z-index: 3;
     animation: fadeInimg3 linear;
     animation-timeline: view();
     animation-range: entry 0 cover 19%;
@@ -538,6 +540,7 @@ body {
     max-width: 1200px;
     gap: 15px;
     perspective: 1200px; /* 3d effect, higher the value lower the 3d effect*/
+    cursor: default;
 }
 
 .step-card > div {
@@ -554,7 +557,6 @@ body {
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: var(--curve-card-lg);
     padding: 30px;
-    backface-visibility: hidden; /* backside not shown until flip */
     height: 100%; width: 100%;
 }
 

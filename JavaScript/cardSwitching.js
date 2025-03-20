@@ -32,7 +32,6 @@ const btnNext = document.querySelector(".btnNext");
 const blankcard = document.querySelector(".blank-card");
 
 if (dots.length > 0) { // always true, and ensure dots not empty
-    aboutCard.classList.add("show");
     dots[0].classList.add("active");
 }
 
