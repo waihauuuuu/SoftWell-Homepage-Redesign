@@ -213,7 +213,7 @@ body {
 
 .abstract {
     width: 700px; height: 700px;
-    background-image: url(/Resources/Abstract.png);
+    background-image: url(Resources/Abstract.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
